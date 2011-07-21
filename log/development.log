@@ -20497,3 +20497,183 @@ Rendered /usr/local/rvm/gems/ruby-1.9.3-head/gems/synergy_default_theme-1.0.2/ap
 Rendered /usr/local/rvm/gems/ruby-1.9.3-head/bundler/gems/spree-676b5c47990c/core/app/views/shared/_google_analytics.html.erb (4.9ms)
 Rendered /usr/local/rvm/gems/ruby-1.9.3-head/gems/synergy_default_theme-1.0.2/app/views/home/index.html.erb within layouts/spree_application (199.2ms)
 Completed 200 OK in 690ms (Views: 223.2ms | ActiveRecord: 410.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /home/binom/Aptana Studio 3 Workspace/synergy_app/config/environment.rb:5)
+  [1m[36mSQL (1.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.7ms)[0m  SHOW TABLES
+  [1m[36mMailMethod Load (15.7ms)[0m  [1mSELECT `mail_methods`.* FROM `mail_methods` WHERE `mail_methods`.`environment` = 'development' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.8ms)[0m  [1mdescribe `roles_users`[0m
+  [1m[35mSQL (0.8ms)[0m  describe `product_groups_products`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `products_taxons`[0m
+  [1m[35mSQL (0.8ms)[0m  describe `option_values_variants`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.8ms)[0m  [1mdescribe `product_groups_products`[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.8ms)[0m  [1mdescribe `products_promotion_rules`[0m
+  [1m[35mSQL (0.8ms)[0m  describe `products_promotion_rules`
+  [1m[36mSQL (0.8ms)[0m  [1mdescribe `promotion_rules_users`[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAppConfiguration Load (0.4ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND `configurations`.`name` = 'Default configuration' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (0.5ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'default_locale' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mAREL (0.6ms)[0m  UPDATE `preferences` SET `value` = 'ru', `updated_at` = '2011-07-21 21:00:06' WHERE `preferences`.`id` = 1
+  [1m[36mConfiguration Load (0.3ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (69.0ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (0.8ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'default_country_id' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE `preferences` SET `value` = 168, `updated_at` = '2011-07-21 21:00:06' WHERE `preferences`.`id` = 2
+  [1m[36mConfiguration Load (0.2ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (53.1ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (0.5ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'allow_ssl_in_production' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  UPDATE `preferences` SET `value` = 0, `updated_at` = '2011-07-21 21:00:06' WHERE `preferences`.`id` = 3
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (47.1ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (0.8ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'disable_bill_address' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `preferences` SET `value` = 1, `updated_at` = '2011-07-21 21:00:06' WHERE `preferences`.`id` = 4
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (46.0ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (0.5ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'admin_interface_logo' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  COMMIT
+  [1m[36mZone Load (0.4ms)[0m  [1mSELECT `zones`.* FROM `zones` LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1[0m
+  [1m[35mPreference Load (0.5ms)[0m  SELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'checkout_zone' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mPreference Load (0.5ms)[0m  SELECT `preferences`.* FROM `preferences` WHERE (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration')
+  [1m[36mConfiguration Load (0.2ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1[0m
+  [1m[35mPreference Load (0.5ms)[0m  SELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'products_per_page' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE `preferences` SET `value` = 9, `updated_at` = '2011-07-21 21:00:06' WHERE `preferences`.`id` = 8[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mSQL (56.0ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-22 01:00:52 +0400
+  [1m[35mSQL (1.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (4.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (5.6ms)[0m  [1mdescribe `products_promotion_rules`[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.8ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (7.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.5ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (0.6ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'default_locale' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mAREL (1.1ms)[0m  UPDATE `preferences` SET `value` = 'ru', `updated_at` = '2011-07-21 21:00:52' WHERE `preferences`.`id` = 1
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (77.1ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.0ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (0.6ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'default_country_id' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mAREL (1.7ms)[0m  UPDATE `preferences` SET `value` = 168, `updated_at` = '2011-07-21 21:00:52' WHERE `preferences`.`id` = 2
+  [1m[36mConfiguration Load (4.2ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (68.4ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (0.5ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'allow_ssl_in_production' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mAREL (4.4ms)[0m  UPDATE `preferences` SET `value` = 0, `updated_at` = '2011-07-21 21:00:52' WHERE `preferences`.`id` = 3
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (85.1ms)[0m  COMMIT
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (0.5ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'disable_bill_address' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE `preferences` SET `value` = 1, `updated_at` = '2011-07-21 21:00:52' WHERE `preferences`.`id` = 4
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (70.0ms)[0m  COMMIT
+  [1m[36mSQL (4.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.8ms)[0m  SELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1
+  [1m[36mPreference Load (3.6ms)[0m  [1mSELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'admin_interface_logo' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  COMMIT
+  [1m[36mZone Load (1.2ms)[0m  [1mSELECT `zones`.* FROM `zones` LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (5.3ms)[0m  [1mSELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1[0m
+  [1m[35mPreference Load (0.5ms)[0m  SELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'checkout_zone' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mPreference Load (0.6ms)[0m  SELECT `preferences`.* FROM `preferences` WHERE (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration')
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mConfiguration Load (6.4ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mConfiguration Load (0.1ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (3.4ms)[0m  [1mSELECT 1 FROM `configurations` WHERE `configurations`.`type` = 'AppConfiguration' AND (`configurations`.`name` = BINARY 'Default configuration') AND (`configurations`.id <> 1) LIMIT 1[0m
+  [1m[35mPreference Load (0.6ms)[0m  SELECT `preferences`.* FROM `preferences` WHERE `preferences`.`name` = 'products_per_page' AND `preferences`.`group_id` IS NULL AND `preferences`.`group_type` IS NULL AND (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration') LIMIT 1
+  [1m[36mAREL (4.8ms)[0m  [1mUPDATE `preferences` SET `value` = 9, `updated_at` = '2011-07-21 21:00:53' WHERE `preferences`.`id` = 8[0m
+  [1m[35mConfiguration Load (0.1ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mSQL (52.1ms)[0m  [1mCOMMIT[0m
+  Processing by HomeController#index as HTML
+  [1m[35mPreference Load (1.0ms)[0m  SELECT `preferences`.* FROM `preferences` WHERE (`preferences`.owner_id = 1 AND `preferences`.owner_type = 'Configuration')
+  [1m[36mConfiguration Load (0.2ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`id` = 1 LIMIT 1[0m
+  [1m[35mTaxonomy Load (1.3ms)[0m  SELECT `taxonomies`.* FROM `taxonomies`
+  [1m[36mSQL (0.8ms)[0m  [1mdescribe `products_taxons`[0m
+  [1m[35mSQL (5.5ms)[0m  describe `properties_prototypes`
+  [1m[36mSQL (5.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mProperty Load (0.5ms)[0m  SELECT `properties`.* FROM `properties` WHERE `properties`.`name` = 'brand' LIMIT 1
+  [1m[36mSQL (0.9ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mTaxon Load (4.0ms)[0m  SELECT `taxons`.* FROM `taxons` WHERE (`taxons`.taxonomy_id = 1 AND (parent_id is null))
+  [1m[36mTaxon Load (10.5ms)[0m  [1mSELECT `taxons`.* FROM `taxons` WHERE (`taxons`.parent_id = 1) ORDER BY `lft`[0m
+Rendered /usr/local/rvm/gems/ruby-1.9.3-head/gems/synergy_default_theme-1.0.2/app/views/shared/_taxonomies.html.erb (2.5ms)
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mOnlineSupportConfiguration Load (2.4ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`type` = 'OnlineSupportConfiguration' AND `configurations`.`name` = 'Online Support configuration' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `configurations`.* FROM `configurations` WHERE `configurations`.`type` = 'OnlineSupportConfiguration' AND `configurations`.`name` = 'Online Support configuration' LIMIT 1[0m
+Rendered /usr/local/rvm/gems/ruby-1.9.3-head/gems/spree_online_support-0.50.0/app/views/shared/_online_support.html.erb (309.3ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.3-head/gems/synergy_default_theme-1.0.2/app/views/shared/_jgrowl_startup.html.erb (1.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.3-head/gems/synergy_default_theme-1.0.2/app/views/shared/_head.html.erb (350.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.3-head/gems/synergy_default_theme-1.0.2/app/views/shared/_search.html.erb (2.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.3-head/bundler/gems/spree-676b5c47990c/auth/app/views/shared/_login.html.erb (7.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.3-head/gems/synergy_default_theme-1.0.2/app/views/shared/_login_bar.html.erb (55.0ms)
+  [1m[35mPage Load (0.5ms)[0m  SELECT `pages`.* FROM `pages` WHERE (show_in_header = 1) ORDER BY position ASC
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT COUNT(*) FROM `pages` WHERE (show_in_sidebar = 1)[0m
+  [1m[35mPage Load (0.3ms)[0m  SELECT `pages`.* FROM `pages` WHERE (show_in_footer = 1) ORDER BY position ASC
+  [1m[36mTracker Load (0.4ms)[0m  [1mSELECT `trackers`.* FROM `trackers` WHERE `trackers`.`active` = 1 AND `trackers`.`environment` = 'development' LIMIT 1[0m
+Rendered /usr/local/rvm/gems/ruby-1.9.3-head/bundler/gems/spree-676b5c47990c/core/app/views/shared/_google_analytics.html.erb (11.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.3-head/gems/synergy_default_theme-1.0.2/app/views/home/index.html.erb within layouts/spree_application (517.5ms)
+Completed 200 OK in 5317ms (Views: 575.8ms | ActiveRecord: 479.8ms)
